@@ -1,11 +1,12 @@
 body{
 	background-color: #ccc;
+	font-family: sans-serif;
 }
 .wrapper{
 	width: 1300px;
     margin: auto;
     margin-top: -8px;
-    background-color: #DAC8B8;
+    background-color: white;
 }
 .headerContainer{
 	width: 100%;
@@ -14,17 +15,21 @@ body{
 .header{
 	width: 100%;
 	display: flex;
-	font-size: 30px;
+	font-size: 40px;
 	justify-content: space-around;
+	font-family: 'Great Vibes', cursive;
 }
 .navBar{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	margin-top: 20px;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	font-size: 25px;
+
 }
 .selected{
-	color: red;
+	color: #CFC0A4;
 }
 a{
 	text-decoration: none;
@@ -36,3 +41,17 @@ a{
     border-radius: 40%;
     margin: 10px 0 0 0;
 }
+.footer{
+	margin-top: 20px;
+}
+
+
+
+
+/*
+font-family: 'Poiret One', cursive;
+font-family: 'Domine', serif;
+font-family: 'Cookie', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Allura', cursive;
+*/

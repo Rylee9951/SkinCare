@@ -1,0 +1,28 @@
+.wrapperServices{}
+.wrapperServices{
+	background-image: url("../images/skincarespa.png");
+	background-size: contain;
+	background-image:linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 100%), url("../images/skincarespa.png");
+}
+.serviceContainer{
+	width: 1000px;
+    margin: auto;
+    color: white;
+}
+.title{
+	width: 970px;
+	display: flex;
+	justify-content: space-between;
+}
+.price{
+	
+}
+.service{
+
+}
+.descriptionContainer{
+
+}
+.description{
+	margin-top: 0;
+}
