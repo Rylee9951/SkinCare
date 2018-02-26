@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import '../styles/services.css';
-import Background from '../images/skincarespa.png'
+import '../styles/home.css'
 
 class Services extends Component {
   render() {
     return (
-      <div className="wrapperServices">
+      <div className="container">
       	<div className="serviceContainer">
 	      	<div className="title">
 	      		<h3 className="service">Customized Facial</h3><h3 className="price">$90</h3>

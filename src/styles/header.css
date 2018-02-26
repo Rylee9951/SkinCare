@@ -1,16 +1,15 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 body{
 	background-color: #ccc;
 	font-family: sans-serif;
 }
-.wrapper{
-	width: 1300px;
-    margin: auto;
-    margin-top: -8px;
-    background-color: white;
-}
+
 .headerContainer{
 	width: 100%;
-
+	background: rgba(0, 0, 0, 0.5);
 }
 .header{
 	width: 100%;
@@ -33,7 +32,7 @@ body{
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 .logo{
 	width: 150px;
@@ -41,10 +40,6 @@ a{
     border-radius: 40%;
     margin: 10px 0 0 0;
 }
-.footer{
-	margin-top: 20px;
-}
-
 
 
 

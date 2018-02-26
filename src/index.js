@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import './styles/header.css'
+import './styles/home.css'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Services from './components/Services'
-import Location from './components/Location'
 import Policies from './components/Policies'
 
 
@@ -20,7 +19,6 @@ ReactDOM.render((
 			<Switch>
 				<Route exact path='/' component={Home} />
 				<Route exact path='/services' component={Services} />
-				<Route exact path='/location&contact' component={Location} />
 				<Route exact path='/policies' component={Policies} />
 			</Switch>
 			<Footer />

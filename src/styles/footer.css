@@ -1,0 +1,27 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.footer{
+	background-color: #1D1F22;
+	display: flex;
+	justify-content: space-around;
+	height: 300px;
+	margin-top: -20px;
+}
+
+.footerNavBar{
+	margin-top: 30px;
+	display: grid;
+}
+.googleMap{
+	width: 400px;
+}
+.google-map{
+	width: 400px;
+	height: 200px;
+}
+.logoFooter{
+	width: 50px;
+	border-radius: 100%;
+}

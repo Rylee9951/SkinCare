@@ -1,13 +1,18 @@
-.wrapperServices{}
-.wrapperServices{
-	background-image: url("../images/skincarespa.png");
-	background-size: contain;
-	background-image:linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 100%), url("../images/skincarespa.png");
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.container{
+	background: rgba(0, 0, 0, 0.4);
+	padding-bottom: 20px;
 }
 .serviceContainer{
 	width: 1000px;
     margin: auto;
-    color: white;
+    
+}
+.imgService{
+	width: 100%;
 }
 .title{
 	width: 970px;
