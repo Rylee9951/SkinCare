@@ -6,8 +6,7 @@ import './styles/home.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import Services from './components/Services'
-import Policies from './components/Policies'
+
 
 
 import registerServiceWorker from './registerServiceWorker'
@@ -18,8 +17,6 @@ ReactDOM.render((
 			<Header />
 			<Switch>
 				<Route exact path='/' component={Home} />
-				<Route exact path='/services' component={Services} />
-				<Route exact path='/policies' component={Policies} />
 			</Switch>
 			<Footer />
 		</div>

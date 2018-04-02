@@ -13,11 +13,7 @@ class Header extends Component {
         	 <img className="logo" src={Logo} alt=""/>
            <h1>Christina's Skin Care</h1>
           </div>
-        	<div className="navBar">
-  	      	<NavLink exact to="/" activeClassName="selected">Home</NavLink>
-  	      	<NavLink to="/services" activeClassName="selected">Services</NavLink>
-  	      	<NavLink to="/policies" activeClassName="selected">Policies</NavLink>
-        	</div>
+        	
         </div>
       </div>
     )

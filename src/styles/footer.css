@@ -1,18 +1,24 @@
 *, *:before, *:after {
 	box-sizing: border-box;
 }
-
-.footer{
+.footerContainer{
 	background-color: #1D1F22;
-	display: flex;
-	justify-content: space-around;
 	height: 300px;
 	margin-top: -20px;
+}
+.footer{
+	
+	display: flex;
+	justify-content: space-around;
+	
 }
 
 .footerNavBar{
 	margin-top: 30px;
 	display: grid;
+}
+.footerNavBar .fa{
+	font-size: 40px;
 }
 .googleMap{
 	width: 400px;
@@ -24,4 +30,9 @@
 .logoFooter{
 	width: 50px;
 	border-radius: 100%;
+}
+.cancellation{
+	font-size: 13px;
+	margin-left: 10px;
+	font-style: italic;
 }
