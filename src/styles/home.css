@@ -6,7 +6,7 @@ body{
 }
 .wrapper{
 	width: 1420px;
-	background-image: url('../images/palm.png');
+	background-image: url('../images/background.png');
 	background-attachment: fixed;
 	margin: auto;
 	background-repeat: no-repeat;
