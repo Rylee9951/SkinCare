@@ -23,11 +23,12 @@
 	
 }
 .service{
-
+	font-size: 25px;
 }
 .descriptionContainer{
 
 }
 .description{
 	margin-top: 0;
+	font-size: 20px;
 }
